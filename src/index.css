@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.kv-row-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.kv-row-scroll::-webkit-scrollbar {
+  display: none;
+}
+
